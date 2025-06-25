@@ -1,0 +1,1 @@
+23/06/2025 - Generé gráficos de línea y dispersión con matplotlib. Aprendí uso de estilos, ejes, etiquetas y visualización de datos crecientes. Usé comprehensions, métodos orientados a objetos (`fig`, `ax`) y ajustes de rango de ejes.
