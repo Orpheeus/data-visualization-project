@@ -2,14 +2,14 @@ import matplotlib.pyplot as plt
 from random_walk import RandomWalk
 
 # Hace una caminata aleatoria.
-rw = RandomWalk(50_000)
+rw = RandomWalk(5_000)
 rw.fill_walk()
 
 # Plotea los puntos en la caminata
 plt.style.use('classic')
 fig, ax = plt.subplots()
 point_numbers = range(rw.num_points)
-ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolors='none', s=1)
+ax.plot(rw.x_values, rw.y_values, linewidth=3)
 ax.set_aspect('equal')
 
 # Emphasize the first and last points
